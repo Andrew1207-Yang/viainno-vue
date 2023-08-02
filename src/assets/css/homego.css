@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title{
+    @apply  text-4xl lg:text-5xl font-bold font-noto;
+}
+
+.subtitle{
+    @apply font-bold font-noto;
+}
+
+.paragraph{
+    @apply font-extralight font-noto;
+}
+
+.sm-text-box{
+    @apply pr-[50px] h-[120px];
+}
+
+.app-cta{
+    @apply mt-[15px] text-theme_green font-normal;
+    display: inline-block;
+}
+
+.icon-boxes{
+    @apply m-[30px]
+}
+
+.icon-boxes h3{
+    @apply font-bold font-noto text-lg
+}
+
+.icon-boxes p{
+    @apply font-extralight font-noto text-base text-gray-400 mt-[15px]
+}
+
+.box-left{
+    @apply ml-auto hidden min-[1200px]:flex
+}
+
+.box-left img{
+    @apply mx-auto xl:mr-[0px] xl:ml-[30px] h-[150px]
+}
+.box-right img{
+    @apply mx-auto xl:ml-[0px] xl:mr-[30px] h-[150px]
+}
+
+.footer-title{
+    @apply font-normal text-lg mt-[30px] mb-[10px] lg:mt-[0px] lg:mb-[60px]
+}
+
+.card{
+    @apply p-7 bg-gray-100 m-3 rounded-2xl h-[550px];
+}
+
+.card h3{
+    @apply text-xl lg:text-2xl font-medium font-noto mb-[20px] font-bold;
+}
+
+.card p{
+    @apply font-noto mb-[20px];
+}
+
+.card ul{
+    list-style-type: circle;
+}
+
+.card li{
+    @apply ml-[25px]
+}
+
+.card img{
+    @apply mx-auto lg:h-[300px] ;
+    
+}
