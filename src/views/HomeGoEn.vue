@@ -8,9 +8,9 @@
         <!-- <div class="h-[600px] lg:mx-auto items-center" style="background-image: url(../src/assets/img/homego/hero.png)"> -->
         <div class="h-[600px] lg:mx-auto items-center bg-black">
             <div class="mx-auto max-w-6xl pt-[250px] text-center min-[1275px]:text-left">
-                <h3 class="text-white text-base lg:text-lg subtitle">Home Go 樓宇經營平台</h3>
-                <h1 class="text-white my-[15px] title">作業標準化建立溝通與信任</h1>
-                <p class="text-lg text-white paragraph">綜合性的營運體系來設立管理標準化、<br>建構以數據為導向的營運方式,並增加彈性自由的環境</p>
+                <h3 class="text-white text-base lg:text-lg subtitle">Home Go Housing Management System</h3>
+                <h1 class="text-white my-[15px] title">Build Trust and Communication <br> with Standardized Procedures</h1>
+                <p class="text-lg text-white paragraph">Increase the flexibility of management with multi-functional <br> and data-driven operating system</p>
             </div>
         </div>
     </section>

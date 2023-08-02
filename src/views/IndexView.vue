@@ -84,7 +84,7 @@
     </section>
 
     <!-- Well Building Section -->
-    <section class="partner bg-dark_green text-white">
+    <section class="partner bg-gradient-to-r from-dark_green to-emerald-600 text-white">
         <div class="max-w-6xl text-center mx-auto py-[60px]">
             <h1 class="title">建築標章</h1>
         </div>
