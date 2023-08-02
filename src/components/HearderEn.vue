@@ -17,7 +17,6 @@
     }
 </script>
 
-<!-- @todo:  https://javascript.plainenglish.io/how-to-set-up-a-dropdown-navbar-router-with-vuejs-6e0ef48625f6-->
 <template>
   <header class="w-full fixed bg-white">
         <nav class="mx-auto flex max-w-7xl items-center justify-between p-5 lg:p-3 lg:px-8" aria-label="Global">
@@ -37,18 +36,18 @@
             </div>
             
             <div class='hidden lg:flex'>
-                <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">首頁</router-link>
-                <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">關於我們</router-link>
-                <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">解決方案</router-link>
+                <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">Home</router-link>
+                <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">About Us</router-link>
+                <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">Solutions</router-link>
                 <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">用科技整合生活</router-link>
-                <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">聯繫我們</router-link>
+                <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">Contact</router-link>
             </div>
         </nav>
 
         <div id="navLinks" class='bg-gray-200 hidden text-center'>
-            <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">首頁</router-link>
-                <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">關於我們</router-link>
-            <button @click="toggleApp" class="mx-auto block m-2.5 p-1.5 font-noto">解決方案</button>
+            <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">Home</router-link>
+                <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">About Us</router-link>
+            <button @click="toggleApp" class="mx-auto block m-2.5 p-1.5 font-noto">Solutions</button>
             
             <div id="appLinks" class='bg-gray-200 hidden text-center font-light'>
                 <router-link :to="{name: 'homego'}" class="block m-2.5 p-1.5 font-noto">Home Go</router-link>
@@ -56,7 +55,7 @@
             </div>
 
             <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">用科技整合生活</router-link>
-            <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">聯繫我們</router-link>
+            <router-link :to="{name: 'home'}" class="block m-2.5 p-1.5 font-noto">Contact</router-link>
         </div>
         
     </header>
