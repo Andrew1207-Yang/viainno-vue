@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title{
+    @apply  text-4xl lg:text-5xl font-bold font-noto;
+}
+
+.subtitle{
+    @apply font-bold font-noto;
+}
+
+.app-cta{
+    @apply text-theme_green font-normal py-3;
+    display: inline-block;
+}
+
+.app-cta-btn{
+    @apply text-white bg-theme_green font-normal px-6 py-3 rounded-3xl;
+    display: inline-block;
+}
+
+.card{
+    @apply p-7 bg-gray-100 m-3 rounded-2xl h-[550px];
+}
+
+.card h3{
+    @apply text-xl lg:text-2xl font-medium font-noto my-[20px] font-bold;
+}
+
+.card p{
+    @apply font-noto mb-[20px];
+}
+
+.card ul{
+    list-style-type: circle;
+}
+
+.card li{
+    @apply ml-[25px]
+}
+
+.card img{
+    @apply mx-auto lg:h-[300px] ;
+    
+}
