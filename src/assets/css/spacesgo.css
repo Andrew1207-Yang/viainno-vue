@@ -11,7 +11,7 @@
 }
 
 .card{
-    @apply p-7 bg-gray-100 m-3 rounded-2xl h-[695px];
+    @apply p-7 bg-gray-100 m-3 rounded-2xl h-[695px] overflow-hidden;
 }
 
 .card h3{
@@ -31,10 +31,34 @@
 }
 
 .card img{
-    @apply mx-auto lg:h-[300px] h-[250px];
+    @apply lg:w-[full] w-[full];
     
 }
 
 .hover_block{
     @apply p-7 bg-white m-3 rounded-2xl;  /* hover:h-[300px] hover:w-[828px]; */
+}
+
+.banner{
+    @apply flex justify-evenly items-center mb-8;
+}
+
+.banner li{
+    @apply my-[50px]
+}
+.banner img{
+    @apply lg:w-[40%] w-[full];
+}
+
+.banner ul{
+    @apply text-left text-white 
+}
+
+.app-cta{
+    @apply mt-[15px] text-theme_green font-normal;
+    display: inline-block;
+}
+
+.sm-text-box{
+    @apply pr-[50px] h-[100px];
 }

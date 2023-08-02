@@ -5,7 +5,7 @@
 <template>
     <!-- Hero Section -->
     <section class="hero">
-        <div class="h-[600px] lg:mx-auto items-center bg-[url('../assets/img/homego/hero.png')]" style="background-image: url(../src/assets/img/homego/hero.png)">
+        <div class="h-[600px] lg:mx-auto items-center bg-[url('../assets/img/homego/hero.png')]" style="background-image: url(../assets/img/homego/hero.png)">
             <div class="mx-auto max-w-6xl pt-[250px] text-center min-[1275px]:text-left">
                 <h3 class="text-white text-base lg:text-lg subtitle">Home Go 樓宇經營平台</h3>
                 <h1 class="text-white my-[15px] title">作業標準化建立溝通與信任</h1>
