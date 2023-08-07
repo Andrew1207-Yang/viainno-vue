@@ -21,15 +21,15 @@
 }
 
 .card{
-    @apply p-7 bg-gray-100 m-3 rounded-2xl h-[550px];
+    @apply p-7 bg-white shadow-lg m-3 rounded-2xl h-[400px];
 }
 
 .card h3{
-    @apply text-xl lg:text-2xl font-medium font-noto my-[20px] font-bold;
+    @apply subtitle text-emerald-800 text-xl lg:text-2xl text-left font-medium font-noto my-[20px] font-bold;
 }
 
 .card p{
-    @apply font-noto mb-[20px];
+    @apply font-noto text-left text-black mb-[20px];
 }
 
 .card ul{

@@ -42,10 +42,6 @@
 .banner{
     @apply flex justify-evenly items-center mb-8;
 }
-
-.banner li{
-    @apply my-[50px]
-}
 .banner img{
     @apply lg:w-[40%] w-[full];
 }
