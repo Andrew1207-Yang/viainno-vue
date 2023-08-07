@@ -173,8 +173,6 @@
             <div class="pt-[50px] text-center mx-auto w-4xl">
                 <h1 class="title pb-[30px]">Effective Cases</h1>
             </div>
-
-
         </div>
     </section>
 </template>
